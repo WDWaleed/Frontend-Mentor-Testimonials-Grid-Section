@@ -18,13 +18,13 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 ## Overview
 ### Screenshot
 
-![Pricing Card Challenge](Screenshot)
+![Testimonials Grid Setion](https://github.com/WDWaleed/Frontend-Mentor-Testimonials-Grid-Section/blob/main/Screenshot%202023-06-30%20at%2010-18-55%20Frontend%20Mentor%20Testimonials%20Grid%20Section.png)
 
 
 ### Links
 
-- Solution URL: [Github repo](https://your-solution-url.com)
-- Live Site URL: [WDWaleed.github.io](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/WDWaleed/Frontend-Mentor-Testimonials-Grid-Section/)
+- Live Site URL: [WDWaleed.github.io](https://wdwaleed.github.io/Frontend-Mentor-Testimonials-Grid-Section/)
 
 ## My process
 
