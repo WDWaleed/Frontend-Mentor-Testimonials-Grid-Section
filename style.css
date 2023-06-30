@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+:root {
+  --primary-violet: hsl(263, 55%, 52%);
+  --primary-grayish-blue: hsl(217, 19%, 35%);
+  --primary-blackish-blue: hsl(219, 29%, 14%);
+  --primary-white: hsl(0, 0%, 100%);
+  --neutral-light-gray: hsl(0, 0%, 81%);
+  --neutral-light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+/* MOBILE LAYOUT CODE STARTS HERE */
+
+#main-container {
+  max-width: 1350px;
+  display: grid;
+  grid-template-areas: 
+  "t1"
+  "t2"
+  "t3"
+  "t4"
+  "t5";
+  gap: 2rem;
+  margin: 1rem;
+}
+
+.testimonial {
+  box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+
+
+#testimonial-1 {
+  grid-area: t1;
+  background-color: var(--primary-violet);
+  position: relative;
+  
+}
+
+
+
+#testimonial-1, #testimonial-2, #testimonial-4 {
+  color: var(--primary-white);
+}
+
+#testimonial-3, #testimonial-5 {
+  color: var(--primary-blackish-blue);
+}
+
+.summaryp {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin: 1rem 0;
+}
+
+.reviewp {
+  opacity: 70%;
+}
+
+#testimonial-2 {
+  grid-area: t2;
+  background-color: var(--primary-grayish-blue);
+}
+
+#testimonial-3 {
+  grid-area: t3;
+}
+
+#testimonial-4 {
+  grid-area: t4;
+  background-color: var(--primary-blackish-blue);
+}
+
+#testimonial-5 {
+  grid-area: t5;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.quotation {
+  position: absolute;
+  border-radius: 0;
+  opacity: 70%;
+  top: 0;
+  right: 20px;
+  z-index: 0;
+}
+
+.profile-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  z-index: 1;
+}
+
+.testimonial span {
+  font-weight: 500;
+}
+
+.testimonial span::after {
+  content: "Verified Graduate";
+  display: block;
+  opacity: 50%;
+  font-weight: normal;
+
+}
+
+.attribution {
+  text-align: center;
+  margin: 1rem;
+}
+
+
+
+/* MOBILE LAYOUT CODE ENDS HERE */
+
+/* STYLING AND FORMATTING CODE STARTS HERE */
+
+/* STYLING AND FORMATTING CODE ENDS HERE */
+@media screen and (min-width: 800px) {
+  /* DESKTOP LAYOUT CODE STARTS HERE */
+
+  #main-container {
+    grid-template-areas: 
+    "t1 t1 t1 t2 t5"
+    "t3 t4 t4 t4 t5";
+  }
+
+  .quotation {
+    right: 100px;
+  }
+
+  /* DESKTOP LAYOUT CODE ENDS HERE */
+}
